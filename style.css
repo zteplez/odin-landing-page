@@ -1,3 +1,13 @@
+/*
+dark background(hero and footer) -> #1F2937
+HERO MAİN TEXT(this web site) -> 48px #F9FAF8 900
+HERO SECONDARY, HEADER LİNK TEXT -> 18px #E5E7EB
+HEADER LOGO TEXT -> 24px #F9FAF8 
+Button color -> #3882F6
+INFORMATİON HEADER TEXT->36px #1F2937 900
+QUOTE SECTİON BACKGROUND COLOR-> #E5E7EB
+QUOTE TEXT -> 36px light italic #1F2937
+*/
 *{
     margin: 0;
     padding: 0;
