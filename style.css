@@ -31,7 +31,7 @@ html,body{
     align-items: center;
     justify-content: space-around;
     color: white;
-    height: 10vh;
+    height: 5vh;
 }
 .header>ul{
     display: flex;
@@ -39,15 +39,52 @@ html,body{
 }
 .card{
     width: 100vw;
-    height: 20vh;
+    height: 22.5vh;
     display: flex;
     justify-content: center;   
 }
 .card-zero{
-    background-color: #fff;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    max-width: 500px;
+    gap: 5px;
+}
+.left>h2{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.left>p{
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 10px;
+}
+.left>button{
+    background-color: #3882F6;
+    color: #eee;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+.right{
+    width: 400px;
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
 .footer{
-    height: 10vh;
+    height: 5vh;
     width: 100vw;
     color: #fff;
     background-color: #1F2937;
