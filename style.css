@@ -12,4 +12,46 @@ QUOTE TEXT -> 36px light italic #1F2937
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+html,body{
+    height: 100%;
+}
+.container{
+    background-color: red;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    background-color: #1F2937;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 10vh;
+}
+.header>ul{
+    display: flex;
+    gap: 16px;
+}
+.card{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;   
+}
+.card-zero{
+    background-color: #fff;
+}
+.footer{
+    height: 10vh;
+    width: 100vw;
+    color: #fff;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
