@@ -143,6 +143,32 @@ html,body{
     font-weight: bold;
     align-self: flex-end;
 }
+.card-third{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.signup-box{
+    width: 40%;
+    height: 70%;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup-box>button{
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid #fff;
+    background-color: #3882F6;
+    color: #fff;
+}
+.action-box>span{
+    font-size: 20px;
+    font-weight: 600;
+}
 .footer{
     height: 5vh;
     width: 100vw;
