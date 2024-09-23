@@ -18,7 +18,6 @@ html,body{
     height: 100%;
 }
 .container{
-    background-color: red;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -82,6 +81,40 @@ html,body{
     align-items: center;
     justify-content: center;
     color: #fff;
+}
+.card-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 300px;
+    gap: 10px;
+}
+.card-first .random-info{
+   font-size: 36px;
+   color: #1F2937;
+   font-weight:900;
+}
+.card-first .boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.box{
+    width:  150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 .footer{
     height: 5vh;
