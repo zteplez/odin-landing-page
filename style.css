@@ -40,7 +40,7 @@ html,body{
     width: 100vw;
     height: 22.5vh;
     display: flex;
-    justify-content: center;   
+    justify-content: center;
 }
 .card-zero{
     background-color: #1F2937;
@@ -115,6 +115,33 @@ html,body{
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 10px;
+}
+.card-second{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    gap: 20px;
+}
+.quote-card{
+    display: flex;
+    justify-content: center;
+    max-width: 25%;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.quote-card>.quote{
+    font-size: 18px;
+    color:  #1F2937;
+    font-style: italic;
+}
+.quote-card>.author{
+    font-size: 14px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 .footer{
     height: 5vh;
